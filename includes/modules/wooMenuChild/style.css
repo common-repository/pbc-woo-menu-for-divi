@@ -1,0 +1,94 @@
+
+.pbc-divi-woocommerce-menu-wrapper-item-content {
+  opacity: 0;
+  padding: 1.5em;
+  position: static;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  float: left;
+  display: none;
+
+}
+
+.pbc-divi-woocommerce-menu-source-content {
+  margin-top: 1.2em;
+}
+
+.pbc_woocommerce_menu_child {
+    display: inline-block;
+    position: static !important;
+}
+
+.et_pb_button.pbc-divi-woocommerce-menu-item-button {
+  border: 0px solid;
+}
+
+.et_pb_module.pbc_woocommerce_menu_child .et_pb_module_inner {
+  position: static;
+}
+
+
+
+.pbc-divi-woocommerce-menu-wrapper-parent-link {
+  cursor: pointer;
+  padding: 0.8em 1.2em;
+  display: inline-block;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.pbc-divi-woocommerce-menu-main-wrapper .et_pb_module.pbc_woocommerce_menu_child {
+  margin-bottom: 0;
+}
+
+span.pbc-divi-woocommerce-menu-mobile-icon{
+    display: none;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+
+h3.pbc-divi-woocommerce-menu-title {
+    display: inline-block;
+    float: left;
+}
+
+.pbc-divi-woocommerce-menu-wrapper-item-button {
+  display: inline-block;
+}
+
+
+/*============= RESPONSIVE =================*/
+.pbc-is-mobile .pbc-divi-woocommerce-menu-main-wrapper-inner {
+  opacity: 0;
+}
+
+
+
+
+@media (max-width: 980px){
+
+  span.pbc-divi-woocommerce-menu-mobile-icon{
+      display: block;
+  }
+
+  .pbc-divi-woocommerce-menu-wrapper-parent-link {
+    width: 100%;
+    display: block;
+    float: left;
+    clear: both;
+    margin-bottom: 1px;
+  }
+
+  .pbc_woocommerce_menu_child {
+    width: 100%;
+    margin: 0 !important;
+    display: block;
+    clear: both;
+  }
+
+}
